@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.key{
+    width: 3%;
+   text-transform: uppercase;
+   border: 1px solid black;
+   background-color: rgba(8, 8, 12, 0.253);
+   padding: 3%;
+   margin-left: 1.3%;
+   color: #fff;
+   float: left;
+   text-align: center;
+   border: 3px solid black;
+}
+kbd{
+   font-size: 2em;
+}
+.key-sound{
+    font-size: 0.8em;
+    color: gold;
+}
+#board{
+    width: 80%;
+    height: 30%;
+    position: relative;
+    top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+    box-sizing: border-box;
+}
+#container{
+    background-image: url('images/drummer.jpg');
+    height: 100vh;
+}
+.playing{
+    border: 3px solid gold;
+    transform: scale(1.1);
+}

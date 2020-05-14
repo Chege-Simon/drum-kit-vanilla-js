@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum-Kit</title>
+    <link rel="stylesheet" href="drum.css">
+</head>
+<body>
+    <div id="container">
+        <div id="board">
+            <div class="a key">
+                <kbd>a</kbd>
+                <div class="key-sound">bandpass</div>
+            </div>
+            <div class="s key">
+                <kbd>s</kbd>
+                <div class="key-sound">bap</div>
+            </div>
+            <div class="d key">
+                <kbd>d</kbd>
+                <div class="key-sound">tamb</div>
+            </div>
+            <div class="f key">
+                <kbd>f</kbd>
+                <div class="key-sound">electro</div>
+            </div>
+            <div class="g key">
+                <kbd>g</kbd>
+                <div class="key-sound">kick</div>
+            </div>
+            <div class="h key">
+                <kbd>h</kbd>
+                <div class="key-sound">laser</div>
+            </div>
+            <div class="j key">
+                <kbd>j</kbd>
+                <div class="key-sound">stick</div>
+            </div>
+            <div class="k key">
+                <kbd>k</kbd>
+                <div class="key-sound">sub</div>
+            </div>
+            <div class="l key">
+                <kbd>l</kbd>
+                <div class="key-sound">teep</div>
+            </div>
+        </div>
+    </div>
+    <audio id="a" src="sounds/bandpass-blart.aif.mp3"></audio>
+    <audio id="s" src="sounds/bap.wav.mp3"></audio>
+    <audio id="d" src="sounds/TAMB.aif.mp3"></audio>
+    <audio id="f" src="sounds/electro_kick_1.wav.mp3"></audio>
+    <audio id="g" src="sounds/kick.wav.mp3"></audio>
+    <audio id="h" src="sounds/laser-powered-spud-gun.aif.mp3"></audio>
+    <audio id="j" src="sounds/stick.aif.mp3"></audio>
+    <audio id="k" src="sounds/subtubekick.aif.mp3"></audio>
+    <audio id="l" src="sounds/teep.aif.mp3"></audio>
+
+<script src="drum.js"></script>
+</body>
+</html>
